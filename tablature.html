@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karena Mistry Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+
+
+</head>
+
+<body>
+
+
+
+    <nav>
+        <p> <a href="index.html">Karena Mistry</a></p>
+        <ul>
+<!--        <li><a href="">Work</a></li> --> 
+            <li><a href="about.html">About</a></li>
+            <li><a target="_blank" href="https://www.dropbox.com/s/ukgl6jqx1omtakv/KarenaMistry-2022-resume.pdf?dl=0">Resume</a></li>
+        </ul>
+    </nav>
+
+    <div class="flex-container guitar">
+        <div class="img-project guitar-title-img"></div>
+        <div class="smaller-img guitar-title-img-smaller"></div>
+    </div>
+
+
+<div class="content">
+
+
+    <div class="title">
+        <h1>Rethinking Tablature</h1>
+        <h2>Improving song learning for guitar playing using AR.</h2>
+    </div>
+
+    <div class="info">
+        <p>Desktop</p>
+        <p>UI/UX, Motion</p>
+        <p>Case Study</p>
+        <p>1 Week</p>
+        <p><a href="https://www.figma.com/proto/O8GRkr8LDHpLzZ77dp8tfI/Guitar-Game---Design?page-id=0%3A1&node-id=1%3A2&viewport=241%2C48%2C0.2&scaling=scale-down&starting-point-node-id=1%3A2" target="blank">Figma Prototype</a></p>
+    </div>
+
+    <img id="top-image" class="image-size-3" src="/guitar-images/cover-guitar.jpg" alt="">
+
+    <div class="overview">
+        <h4>Rethinking Tablature is a 7-day exploration of the visual systems behind guitar learning.</h4>
+        <p> Follow my steps to creating an application that uses visuospatial memory techniques and AR technology to help musicians learn songs faster.
+        </p>
+    </div>
+
+    <div class="content">
+        <h4>Problem</h4>
+        <p>The most common way to learn songs for the average skilled guitar player is to find tablature online. Tablature is a simplified version of traditional music notation that doesn't require any prior music knowledge to read. Tabs are a version of music reading made for the casual musician, and I wanted to know if I could improve it even further to make learning new songs less arduous and time consuming. </p>
+    </div>
+
+    <p class="skip-button"> <a href="#solution-3"> Skip to solution &#8594; </a></p>
+
+    
+
+
+    <div class="headings">
+        <h3>1. Discovery</h3>
+        <ul>
+            <li>Competition Analysis</li>
+            <li>Persona</li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h4>Competitive Analysis</h4>
+        <p>Rhythm games were some of my primary sources of inspiration, because they are able to incorporate music and skill together. Games like Amplitude, Thumper, Osu and of course GuitarHero were just some of the games I referenced to find better solutions
+        </p>
+
+            <img class="image-size-1" src="/guitar-images/competition-analysis.svg" alt="">
+
+        <h4>Personas</h4>
+        <p>I created a persona to give myself a better idea of who specifically would be using the application. This was based off research conducted by Fender, that said almost 40% of new guitar players are female.
+        </p>
+
+            <div class="persona"> 
+                <img class="image-size-4" src="/guitar-images/persona-1.jpg" alt="">
+                <img class="image-size-4" src="/guitar-images/persona-1.svg" alt="">
+            </div>
+
+        <h4>Memorization Techniques</h4>
+        <p>I began my research by looking at memorization techniques used in studying, because those correlated well with what I was looking for. Learning  songs on guitar generally requires learning different sections, different play styles (ie strumming, plucking…etc) & the combination of different notes and chords. 
+            <br> <br>
+            I found a method called Chunking, which is when you chunk together information into sections and memorize each section separately, then put it all together. For the time being, this was the method of learning that I had chosen to work with. 
+            </p>
+
+
+        <h4>Design Implications</h4>
+        <p>I needed to design for both single note and chords alike. This meant that I needed to find a way to visualize the guitar with 6 strings, & 21 frets each playing a different note. I also wanted to incorporate other features that I had seen in games like OSU, such as community song making because then the product wouldn't have to pay for the rights to copywritten music. </p>
+    </div>
+
+
+    <div class="headings">
+        <h3>2. Design</h3>
+        <ul>
+            <li>Sketching</li>
+            <li>Prototyping</li>
+            <li>Iterating</li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h4>Chord Iterations</h4>
+        <p>The iterations I created have subtle variations in hierarchy and information provided. I wanted to introduce the visualization of chords on the users actual instrument, so I had the idea of using augmented reality to show user's exactly how to play the chord.
+        </p>
+
+            <img class="image-size-2" src="/guitar-images/iterations-2-a.jpg" alt="">
+            <img class="image-size-2" src="/guitar-images/tabs-iterations-1.jpg" alt="">
+
+     <h4>Video Mockups</h4>
+     <p>I quickly mocked up some initial ideas for note visualization to see how it would look in game. After mocking up the application for note by note, I realized that a phone screen would not be an ideal size for this product, so I moved to a desktop device.
+    </p>
+
+    <div class="sidebysideImg">
+            
+        <video controls muted autoplay loop width="600">
+        
+            <source src="/guitar-images/neck-type-ui.mp4"
+                    type="video/mp4">
+        
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+
+        <video controls muted autoplay loop width="600">
+        
+            <source src="/guitar-images/circle-type-ui.mp4"
+                    type="video/mp4">
+        
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+
+    </div>
+
+
+        <h4>Note by Note Iterations</h4>
+        <p>I explored a couple of different iterations of the note by note visualization, using augmented reality. A problem I was having was that notes were not visible enough on the small guitar fret board. 
+        </p>
+
+            <img class="image-size-2" src="/guitar-images/iterations-2-d.jpg" alt="">
+            <img class="image-size-2" src="/guitar-images/iterations-1.png" alt="">
+            <img class="image-size-2" src="/guitar-images/iterations-2.png" alt="">
+
+
+
+
+        <h4>High fidelity Mockups</h4>
+        <p>I was able to start mocking up the design for the game itself. I decided to use warm colours for 3 strings closest to the player & cool colours for 3 strings furthest away
+        </p>
+
+            <img class="image-size-2" src="/guitar-images/final-iteration-1.jpg" alt="">
+
+        
+        <h4>Monkey Ladder Test</h4>
+        <p>During my design process, I had still been conducting research to better understand other products on the market. I came across the human benchmark memorization game, that is based off the monkey ladder technique. This visuospatial memorization technique is used to memorize short term numbers in sequences, similar to notes in a song. Implementing this technique alongside the chunking memorization technique would make for a better music learning solution. The human benchmark test is shown below.</p>
+                    
+        <video controls muted autoplay loop width="600">
+        
+            <source src="/guitar-images/human-bench-video.mp4"
+                    type="video/mp4">
+        
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+
+        <h4>Solving Problems</h4>
+        <p>I had been using the webcam to provide information to the application in order to make the augmented reality feature work. The problem was that the guitar is placed too low on the user's lap for the webcam to reach, making the screen too low to read. I had the idea of using a device with a camera, like a phone, to relay video to the desktop device. This would mean having a phone, or other recording device, in front of the user as well as a desktop device. I designed a recording device that could be used alongside the game to play comfortably. 
+        </p>
+
+        <div class="sidebysideImg">
+            <img class="image-side" src="/guitar-images/problem.jpg" alt="">
+            <img class="image-side" src="/guitar-images/solution.jpg" alt="">
+        </div>
+
+        <div class="sidebysideImg">
+            <img class="image-side" src="/guitar-images/sketch.jpg" alt="">
+            <img class="image-side" src="/guitar-images/3dmockup.jpg" alt="">
+        </div>
+
+        <h4>Animation & Motion</h4>
+        <p>I knew I wanted to have an animation to let users know when the notes were hit or missed. I hand animated a bubbly explosion that would be used for tablet notation at the top of the screen, but I decided to also use it as the animation on the guitar as well due to time constraints.
+        </p>
+
+            <div class="sidebysideImg">
+                <img class="image-side" src="/guitar-images/animation-frame2.jpg" alt="">
+                <img class="image-side" src="/guitar-images/animation-frame3.jpg" alt="">
+            </div>
+
+    </div>
+
+    <div class="headings">
+        <h3 id="solution-3" >3. Solution</h3>
+        <ul>
+            <li>Assets</li>
+            <li>Features</li>
+            <li>Changes</li>
+        </ul>
+    </div>
+
+    <div class="content">
+
+        <h4>Learn songs sequentially</h4>
+        <p> Learn songs and riffs more quickly by using memorization techniques. Adding notes to the song only after you've memorized a section.
+        </p>
+
+        <p> <a href="https://youtu.be/o1Q5sM2_O7k" target="blank"> Youtube Link to videos below</a></p>
+
+        <video controls loop width="980">
+            
+            <source src="/guitar-images/Section-1-Playing-Mockup.mp4"
+                    type="video/mp4">
+        
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+
+        <video controls loop width="980">
+            
+            <source src="/guitar-images/Section-2-Playing-Mockup.mp4"
+                    type="video/mp4">
+        
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+
+
+        <h4>Get competitive</h4>
+        <p>Use the leader board to gauge skill level and improvement in your guitar playing.
+        </p>
+
+        <h4>Practice on the go</h4>
+        <p> This product functions using your laptop & our recording device to capture AR. You can take these with you wherever you would like to practice. 
+        </p>
+        <img class="image-size-3" src="/guitar-images/3dmockup.jpg" alt="">
+
+    </div>
+
+    <div class="content">
+        <h4>Takeaways & Concluding thoughts</h4>
+        <p>I was able to use the double diamond method of research in this project to a more successful degree than I have in the past. This exploration case study was a good exercise in working with technologies outside of my usual comfort zone. I really enjoyed the challenge </p>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+
+    <div class="contact">
+        <p>Get in touch with me, I'd love to chat!</p>
+        <p>k.mistry1898@gmail.com</p>
+    </div>
+
+    <div class="project-links">
+        <p>Client Work & Case Studies</p>
+
+        <ul>
+            <li>UX/UI</li>
+            <li><a href="beacons.html">Beacons</a></li>
+            <li><a href="feature.html">Feature</a></li>
+            <li><a href="feature.html">Rethinking Tabs</a></li>
+        </ul>
+
+        <ul>
+            <li>Motion</li>
+            <li><a href="beacons.html">Instasnacks</a></li>
+            <li><a href="feature.html">Rethinking Tabs</a></li>
+        </ul>
+
+        <ul>
+            <li>Social Media Strategy </li>
+            <li><a href="beacons.html">Instasnacks</a></li>
+            <li><a href="beacons.html">Viet Fresh</a></li>
+        </ul>
+    </div>
+
+    <div class="corner-text">
+        <p>Coded by Me 	&#129299;</p>
+        <p>&copy; Karena Mistry 2022</p>
+    </div>
+
+</footer>
+
+</body>
+</html>
